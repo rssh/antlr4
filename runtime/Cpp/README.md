@@ -57,7 +57,7 @@ Try run cmake -DCMAKE_ANDROID_NDK=/folder/of/android_ndkr17_and_above -DCMAKE_SY
 #### Compiling on Linux
 - cd <antlr4-dir>/runtime/Cpp (this is where this readme is located)
 - mkdir build && mkdir run && cd build
-- cmake .. -DANTLR_JAR_LOCATION=full/path/to/antlr4-4.5.4-SNAPSHOT.jar -DWITH_DEMO=True
+- cmake .. -DANTLR_JAR_LOCATION=full/path/to/antlr4-4.7.3-SNAPSHOT.jar -DWITH_DEMO=True
 - make
 - DESTDIR=<antlr4-dir>/runtime/Cpp/run make install
 
